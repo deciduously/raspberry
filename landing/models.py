@@ -7,3 +7,5 @@ class App(models.Model):
 	synopsis = models.TextField(blank=True, null=True)
 	start_date = models.DateTimeField('date initiated')
 	last_update = models.DateTimeField('date updated')
+	def __str__(self):
+		return self.title
