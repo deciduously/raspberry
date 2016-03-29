@@ -23,7 +23,7 @@ It's a wonderful game and if you find this repo, you should do yourself a favor 
 
 #### Currently used external libraries ####
 
-* [jQuery](http://jquery.com/) 2.2.1
+* [jQuery](http://jquery.com/) 2.2.2
 
 #### TODO ####
 
