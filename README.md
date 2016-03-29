@@ -1,6 +1,9 @@
-#Raspberry Server#
-
-This is an introductory Django project which I hope to eventually deploy on a Raspberry Pi 3 on my LAN running Arch Linux ARM, using Nginx and PostgreSQL.  It will serve as a landing page for other web-based projects as well as a home fileserver.
+#Raspberry Dashboard#
+I bought a raspberry pi, and want something fun to run on it.  I also wanted to learn Django.  So, this is a fun little Django project designed to run on my raspberry pi!
+#### Target System ####
+Hardware: [Raspberry Pi](https://www.raspberrypi.org/) 3 Model B V1.2
+OS: [Arch Linux ARM](https://archlinuxarm.org/)
+Webserver: [Nginx](http://nginx.org/en/) 1.8.1
 
 * * *
 
@@ -16,7 +19,7 @@ It's a wonderful game and if you find this repo, you should do yourself a favor 
 
 #### Currently used external libraries ####
 
-* [jQuery](http://jquery.com/) 2.2.0
+* [jQuery](http://jquery.com/) 2.2.1
 
 #### TODO ####
 
@@ -26,3 +29,7 @@ It's a wonderful game and if you find this repo, you should do yourself a favor 
 * Cry myself to sleep
 
 * * *
+
+#TODO#
+*Pretty start page
+*Web interface to file server
