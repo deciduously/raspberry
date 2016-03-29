@@ -4,7 +4,8 @@ I bought a raspberry pi, and want something fun, useful, and educational to run 
 
 * [Raspberry Pi](https://www.raspberrypi.org/) 3 Model B V1.2
 * [Arch Linux ARM](https://archlinuxarm.org/)
-* [Nginx](http://nginx.org/en/) 1.8.1
+* [Nginx](http://nginx.org/en/) 1.8.1 - handling incoming requests and static content
+* [Gunicorn](http://gunicorn.org/) 19.4
 * [Django](https://www.djangoproject.com/) 1.9.4
 * [PostgreSQL](http://www.postgresql.org/) 9.5.1
 
@@ -34,5 +35,13 @@ It's a wonderful game and if you find this repo, you should do yourself a favor 
 * * *
 
 #TODO#
+* Think about project file struture
 * Pretty start page
 * Web interface to file server
+
+## Eventually Look In To ##
+* [supervisor](https://pypi.python.org/pypi/supervisor) for process management
+* [Celery](http://docs.celeryproject.org/en/latest/index.html) for task management
+* [Redis](http://redis.io/)
+* [MongoDB](https://www.mongodb.org/) as a database replacement
+* [http://munin-monitoring.org/](http://munin-monitoring.org/) for monitoring

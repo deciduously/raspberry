@@ -3,7 +3,7 @@ These are all the things I have:
 {% if apps %}
 	<ul>
 		{% for app in apps %}
-			<li><a href="/landing/apps/{{ app.id }}/">{{ app.title }}</a></li>
+			<li><a href="{% url 'landing:detail' app.id %}">{{ app.title }}</a></li>
 		{% endfor %}
 	</ul>
 {% else %}
