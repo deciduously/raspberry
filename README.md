@@ -1,9 +1,12 @@
 #Raspberry Dashboard#
 I bought a raspberry pi, and want something fun to run on it.  I also wanted to learn Django.  So, this is a fun little Django project designed to run on my raspberry pi!
 #### Target System ####
-Hardware: [Raspberry Pi](https://www.raspberrypi.org/) 3 Model B V1.2
-OS: [Arch Linux ARM](https://archlinuxarm.org/)
-Webserver: [Nginx](http://nginx.org/en/) 1.8.1
+
+* [Raspberry Pi](https://www.raspberrypi.org/) 3 Model B V1.2
+* [Arch Linux ARM](https://archlinuxarm.org/)
+* [Nginx](http://nginx.org/en/) 1.8.1
+* [Django](https://www.djangoproject.com/) 1.9.4
+* [PostgreSQL](http://www.postgresql.org/) 9.5.1
 
 * * *
 
