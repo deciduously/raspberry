@@ -1,5 +1,5 @@
 #Raspberry Dashboard#
-I bought a raspberry pi, and want something fun, useful, and educational to run on it.  I wanted to learn Django.  And also needed a central spot to store other side projects.  So, this is a fun little Django project designed to run on my raspberry pi and serve as a central spot to store other side projects!  It will also provide a web frontend for the fileserver on the pi.
+I bought a raspberry pi, and want something fun, useful, and educational to run on it.  I wanted to learn Django.  I also needed a central spot to store other side projects.  So, this is a fun little Django project designed to run on my raspberry pi and serve as a central spot to store other side projects!  It will also provide a web frontend for the fileserver on the pi.
 #### Target System ####
 
 * [Raspberry Pi](https://www.raspberrypi.org/) 3 Model B V1.2
@@ -34,5 +34,5 @@ It's a wonderful game and if you find this repo, you should do yourself a favor 
 * * *
 
 #TODO#
-*Pretty start page
-*Web interface to file server
+* Pretty start page
+* Web interface to file server
