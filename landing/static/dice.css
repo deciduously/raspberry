@@ -1,0 +1,55 @@
+body {
+    background-color: lemonchiffon;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.black {
+  color: black;
+}
+
+.yellow {
+  color: orange;
+}
+
+.current {
+    color: green;
+}
+
+.hazard {
+    color: red;
+}
+
+.gener {
+    color: dimgray;
+}
+
+.conti {
+    color: deepskyblue;
+}
+
+.dispa {
+    color: deeppink;
+}
+
+.medic {
+    color: darkorange;
+}
+
+.scien {
+    color: whitesmoke;
+}
+
+.conta {
+    color: brown;
+}
+
+.resea {
+    color: saddlebrown;
+}

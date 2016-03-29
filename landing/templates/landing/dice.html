@@ -1,1 +1,38 @@
+ {% block css %}
+<link rel="stylesheet" href="{{ STATIC_URL }}dice.css" />
+ {% endblock %}
+
+ {% block js %}
+<script src="{{ STATIC_URL }}jquery.min.js" />
+<script src="{{ STATIC_URL }}dice.js"
+ {% endblock %}
+
  <h1>Welcome to DICE</h1>
+  <button id="start">New Game</button>
+  <p></p>
+  <table id="counters"></table>
+  <p></p>
+  <table id="continents"></table>
+  <p></p>
+  <table id="treatmentCenter"></table>
+  <p></p>
+  <table id="cdc"></table>
+  <p></p>
+  <table id="currentRoll"></table>
+  <p></p>
+  <table id="players"></table>
+  <!-- Not Yet Implemented
+<div id="charpick" hidden>
+    <form class="charpick">
+        <label for="numPlayers">Number of Players (2-5):</label>
+        <input type="text" name="numPlayers" id="numPlayers" value="2"><br>
+        Assignment Style:
+        <input type="radio" name="selectPref" id="random" value="random" checked><label for="random">Random</label><br>
+        <input type="radio" name="selectPref" id="pickTwo" value="pickTwo"><label for="pickTwo">Pick from Two</label><br>
+        <input type="radio" name="selectPref" id="pickAny" value="pickAny"><label for="pickAny">Pick from All</label><br>
+        <input type="submit" value="submit" id="submitSelectionPref">
+    </form>
+</div>
+<div id="charselect" hidden>
+</div>
+-->

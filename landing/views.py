@@ -13,7 +13,7 @@ def list(request):
 
 def detail(request, app_id):
 	app = App.objects.get(id=app_id)
-	if app.title == 'dice' || app.title == 'Dice':
+	if app.title == 'dice':
 		return render(request, 'landing/dice.html')
 	else:
 		context = {'app_id': app_id}
