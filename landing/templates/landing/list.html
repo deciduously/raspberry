@@ -1,0 +1,11 @@
+These are all the things I have:
+
+{% if apps %}
+	<ul>
+		{% for app in apps %}
+			<li><a href="/landing/apps/{{ app.id }}/">{{ app.title }}</a></li>
+		{% endfor %}
+	</ul>
+{% else %}
+	<p>No apps in Apps!</p>
+{% endif %}

@@ -9,7 +9,9 @@ def index(request):
 	return render(request, 'landing/index.html')
 
 def list(request):
-	return HttpResponse("These are all the things I have.")
+	apps = App.objects.all()
+	context = {'apps': apps}
+	return render(request, 'landing/list.html', context)
 
 def detail(request, app_id):
 	app = App.objects.get(id=app_id)

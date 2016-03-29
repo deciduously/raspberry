@@ -1,11 +1,12 @@
+ {% load staticfiles %}
  {% block css %}
-<link rel="stylesheet" href="{{ STATIC_URL }}dice.css" />
+<link rel="stylesheet" href="{% static 'landing/dice.css'%}" />
  {% endblock %}
 
  {% block js %}
-<script src="{{ STATIC_URL }}jquery.min.js" />
-<script src="{{ STATIC_URL }}dice.js"
- {% endblock %}
+<script src="{% static 'landing/jquery.min.js'%}"></script>
+<script src="{% static 'landing/dice.js'%}"></script>
+{% endblock %}
 
  <h1>Welcome to DICE</h1>
   <button id="start">New Game</button>
