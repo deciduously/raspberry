@@ -25,12 +25,13 @@ SECRET_KEY = 'n*_i1l#ntc6h9(#1^+t!)*l#kflei81qc(hoh)&u)s4ld0mxpp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['192.168.0.124/24']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'front.apps.FrontConfig',
     'landing.apps.LandingConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -77,12 +78,12 @@ WSGI_APPLICATION = 'raspberry.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'raspberry',
-        'USER': 'ben',
-        'PASSWORD': 'postgres',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'USER': 'raspberry_django',
+        'PASSWORD': '5dRpATPhsJKOidSufhCzlH2ejO7xJWmBNNveApHjnxfYK2IR79LCDed7vynxoCv',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
