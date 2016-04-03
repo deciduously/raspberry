@@ -40,6 +40,7 @@ It's a wonderful game and if you find this repo, you should do yourself a favor 
 * Web interface to file server
 
 ## Eventually Look In To ##
+* [KnockoutJS](http://knockoutjs.com/) for Dice frontend
 * [Celery](http://docs.celeryproject.org/en/latest/index.html) for task management
 * [Redis](http://redis.io/)
 * [MongoDB](https://www.mongodb.org/) as a database replacement
