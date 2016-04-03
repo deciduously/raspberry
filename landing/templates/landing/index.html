@@ -1,6 +1,21 @@
-<h1>this is DECIDUOUSLY</h1>
-
-<h2>Featured Links</h2>
-<a href="{% url 'landing:dice' %}">Dice Game</a>
+{% load staticfiles %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'landing/style.css'%}" />
+ {% endblock %}
+<div id="header">
+<h1>Gloriously DECIDUOUSLY</h1>
 <p></p>
-<strong><a href="{% url 'landing:list' %}">Full App List</a></strong>
+<div id="posts">
+{% if posts %}
+	<ul>
+		{% for post in posts %}
+			<b>{{ post.title_text }}</b>
+			{{ post.body_text }}
+		{% endfor %}
+	</ul>
+{% else %}
+	<p><strong>Under Construction...bzurrrt hiss ploink</strong></p>
+{% endif %}
+<p></p>
+<a href="{% url 'dice:index' %}">Dice Game</a>
+</div></div>

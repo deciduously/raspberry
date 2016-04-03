@@ -31,7 +31,7 @@ ALLOWED_HOSTS = ['192.168.0.124/24']
 # Application definition
 
 INSTALLED_APPS = [
-    'front.apps.FrontConfig',
+    'dice.apps.DiceConfig',
     'landing.apps.LandingConfig',
     'django.contrib.admin',
     'django.contrib.auth',
