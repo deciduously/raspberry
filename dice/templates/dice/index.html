@@ -1,14 +1,16 @@
  {% load staticfiles %}
  {% block css %}
-<link rel="stylesheet" href="{% static 'landing/dice.css'%}" />
+<link rel="stylesheet" href="{% static 'dice/dice.css' %}" />
  {% endblock %}
 
  {% block js %}
-<script src="{% static 'landing/jquery.min.js'%}"></script>
-<script src="{% static 'landing/dice.js'%}"></script>
+<script src="{% static 'dice/jquery.min.js' %}"></script>
+<script src="{% static 'dice/dice.js' %}"></script>
 {% endblock %}
 
  <h1>Welcome to DICE</h1>
+  <a href='{% url 'landing:index' %}'>Take Me Home</a>
+  <p></p>
   <button id="start">New Game</button>
   <p></p>
   <table id="counters"></table>
