@@ -37,8 +37,11 @@ var roles = [
 var outbreaks = 0;
 var infectionRate = 0;
 
+function DiceViewModel() {
+  var continents = ko.observableArray([]);
+
+}
 //Note, continents array is zero-indexed but continent ids start at 1
-var continents = [];
 var players = [];
 
 var Continent = function Continent(num) {
@@ -518,6 +521,7 @@ var rollAction = function(i) {
 };
 
 $(document).ready(function() {
+  ko.applyBindings(DiceViewModel);
   $("#start").click(function() {
     newGame();
   });
