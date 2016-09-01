@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_twilio',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -125,3 +126,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = '/var/www/raspberry/static/'
+
+TWILIO_DEFAULT_CALLERID = '+19787294915'
